@@ -1,0 +1,96 @@
+.loginBox {
+  height: 100%;
+  overflow: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url("http://47.112.21.206:8090/resources/appIndexBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+    img {
+      width: 122px;
+      height: 56px;
+    }
+  }
+  .content {
+    padding: 0 35px;
+
+    .am-list-item.am-input-item {
+      background: transparent;
+      margin-bottom: 10px;
+    }
+    .am-list-item .am-input-label.am-input-label-5 {
+      width: 1.2rem;
+    }
+    .am-list-item .am-list-line {
+      border-bottom: 1px solid #aab2b6 !important;
+    }
+    .am-input-extra {
+      max-height: none;
+    }
+  }
+  .SignIn {
+    height: 47px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 18px;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 110, 188, 1),
+      rgba(0, 161, 233, 1)
+    );
+    color: #fff;
+    border-radius: 24px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 88px;
+  }
+  .buttonCode {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 110, 188, 1),
+      rgba(0, 161, 233, 1)
+    );
+    border-radius: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+  }
+  .linkBox {
+    text-align: right;
+    padding-top: 8px;
+    .link {
+      font-size: 12px;
+      color: #8a8a8a;
+      margin-right: 37px;
+    }
+  }
+  .bgImg {
+    width: 14px;
+    height: 14px;
+    background: url(../../images/star.png) no-repeat center center;
+    background-size: 100% 100%;
+  }
+}
+.login_bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+}

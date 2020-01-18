@@ -1,0 +1,92 @@
+.appBox {
+    width: 100%;
+    background-color: #F6F8FA;
+    .am-wingblank.am-wingblank-lg{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .am-wingblank {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .toolOptions {
+        background-color: #FFF;
+        padding: 0.426rem 0.44rem;
+        font-size: 0.62rem;
+        color: #898989;
+        display: flex;
+        justify-content: space-around;
+        .selectItem {
+            height: 20px;
+            line-height: 20px;
+            width: 32%;
+            border-right: 1px solid #999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .simpleSelect {
+            color: #898989;
+            font-size: 0.62rem;
+            appearance:none;
+            -moz-appearance:none; 
+            -webkit-appearance:none;  
+        }
+    }
+    .content {
+        padding: 0.46rem 0.52rem;
+        position: relative;
+       // padding-top: 0.48rem;
+        .itemBox {
+            width: 100%;
+            display: block;
+            background-color: #FFF;
+            border-radius: 6px;
+            border-bottom: 0.42rem #F5F7F9 solid;
+            padding: 0.42rem;
+            &:first-child {
+                border-top: 0.42rem #F5F7F9 solid;
+            }
+            .item {
+              
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                border-bottom: solid #F6F8FA 1px;
+                color: #333;
+                padding-bottom: 0.2rem;
+                img {
+                    width: 4.2rem;
+                    height: auto;
+                    margin-right: 0.42rem;
+                }
+                .titles {
+                    font-size: 0.6rem;
+                    text-overflow:ellipsis;
+                    word-wrap:break-word;
+                    -webkit-line-clamp: 2;
+                    line-height: 0.8rem;
+                    overflow: hidden;
+                    margin-bottom: 0.42rem;
+                    font-family: 'Source Han Sans B';
+                }
+                .desc {
+                    font-size: 0.52rem;
+                    text-overflow: ellipsis;
+                    word-wrap: break-word;
+                    -webkit-line-clamp: 2;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+            }
+            .types {
+              font-size: 0.52rem; 
+              color: #333;
+              padding-top: 0.2rem;
+            }
+        }
+        
+    }
+  }

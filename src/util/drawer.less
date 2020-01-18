@@ -1,0 +1,65 @@
+.drawer-bottom {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    min-height: 500px;
+  
+    &.drawer-open {
+  
+      .drawer-sidebar {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+      }
+    }
+  
+    .drawer-sidebar {
+      width: 100%;
+      height: 500px;
+      background-color: #FFFFFF;
+      transform: translateY(100%);
+      z-index: 109;
+      position: absolute;
+      bottom: 0;
+      transition: transform 0.3s ease-out;
+      -webkit-transition: transform 0.3s ease-out;
+  
+      .close {
+        background-image: url(https://gw.alipayobjects.com/zos/finxbff/tinypng/cb4f54e5-49b0-408c-a424-aade8ac3627f.png);
+        background-size: 33px 33px;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        width: 33px;
+        height: 33px;
+        top: 13px;
+        right: 11px;
+        padding: 20px;
+        z-index: 110;
+      }
+    }
+  
+    .drawer-overlay {
+      height: 100%;
+      width: 100%;
+      z-index: 107;
+      opacity: 1;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transition: opacity 0.5s ease-out;
+      -webkit-transition: opacity 0.5s ease-out;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+  }
+  
+  .display-none {
+    display: none;
+    width: 100%;
+  }

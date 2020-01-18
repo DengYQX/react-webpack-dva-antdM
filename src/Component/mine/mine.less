@@ -1,0 +1,116 @@
+.mine {
+  width: 100%;
+  height: 100%;
+  background-color: #f6f8fa;
+  overflow: auto;
+  transition: all 0.25s;
+  .mine-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      border-radius: 50%;
+      display: block !important;
+    }
+  }
+  .mine_head {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.434rem;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transition: all 0.25s;
+    .textBox {
+      transition: all 0.25s;
+    }
+    .mine_head_ico {
+      position: absolute;
+      top: 12px;
+      width: 16px;
+      height: 16px;
+    }
+    .mine_head_ico_left {
+      left: 16px;
+    }
+    .mine_head_ico_right {
+      right: 16px;
+    }
+  }
+  .mine_title {
+    color: #fff;
+    font-size: 0.782rem;
+    font-weight: 600;
+  }
+  .mine_myPic {
+    width: 4.347rem;
+    height: 4.347rem;
+    margin: 1.086rem auto 0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: all 0.25s;
+    position: relative;
+    overflow: hidden;
+    .authStatus {
+      width: 100%;
+      height: 1rem;
+      line-height: 1rem;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      font-size: 0.48rem;
+      color:rgba(255,255,255,1);
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+  .mine_text {
+    color: #fff;
+    font-size: 0.695rem;
+    margin-top: 0.434rem;
+  }
+  .mine_body {
+    transition: all 0.25s;
+    padding: 15px;
+  }
+  .mine_body_title {
+    width: 100%;
+    height: 1.304rem;
+    font-size: 0.695rem;
+    font-weight: 600;
+    color: #333;
+  }
+  .mine_body_img {
+    width: 0.868rem;
+    height: 0.868rem;
+  }
+  .mine_body_list {
+    background-color: #fff;
+    height: 90px;
+    width: 168px;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #464646;
+    font-size: 0.608rem;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .mine_body_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: space-between;
+  }
+  .mine_body_div .mine_body_list:nth-child(1),
+  .mine_body_div .mine_body_list:nth-child(2) {
+    margin-top: 0;
+  }
+}

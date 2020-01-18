@@ -1,0 +1,162 @@
+.homeBox {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    background-color: #FFF;
+    .am-wingblank.am-wingblank-lg{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .am-wingblank {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .notice {
+        padding: 0 0.59rem;
+        margin-top: 8px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #F6F8FA;
+        .mark {
+            width: 12%;
+            font-size: 0.6rem;
+            letter-spacing: 3px;
+            float: left;
+            line-height: 0.8rem;
+            color: #333;
+            height: 1.6rem;
+            font-family: 'Source Han Sans B';
+        }
+        .content {
+            width: 88%;
+            height: 1.6rem;
+            float: right;
+            color: #898989;
+            font-size: 0.54rem;
+            text-overflow:ellipsis;
+            word-wrap:break-word;
+            -webkit-line-clamp: 2;
+            line-height: 0.8rem;
+            overflow: hidden;
+            a {
+                -webkit-box-orient: vertical;
+            }
+        }
+    }
+    .menu {
+        border-bottom: solid #F6F8FA 0.4rem;
+        width: 100%;
+        margin-top: 8px;
+        //display: flex;
+        //align-items: center;
+       // justify-content: space-around;
+        .itemLink {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+            font-size: 0.57rem;
+            float: left;
+            padding-bottom: 0.8rem;
+            img {
+                margin-bottom: 12px;
+            }
+        }
+    }
+    .infoBox {
+        padding-top: 4px;
+        border-bottom: solid #F6F8FA 0.4rem;
+        .tops {
+            height: 36px;
+            display: flex;
+            padding-right: 0.6rem;
+            align-items: center;
+            justify-content: space-between;
+            font-weight: bold;
+            margin-bottom: 4px;
+            border-bottom: solid #F6F8FA 1px;
+            .types {
+                display: flex;
+                align-items: center;
+                height: 30px;
+                font-size: 0.65rem;
+                color: #333;
+                font-family: 'Source Han Sans B';
+                .bgIcon {
+                    width: 1.3rem;
+                    height: 1rem;
+                    margin-right: 6px;
+                   
+                    display: inline-block;
+                    border-radius: 2px;
+                }            
+                .bgIconB {
+                    background: linear-gradient(#00A1E9, #006EBC);
+                }
+                .bgIconY {
+                    background: linear-gradient( #F7E308, #FCCA00);
+                }
+                .bgIconR {
+                    background: linear-gradient( #FF6D6D, #E8323C);
+                }
+                .bgIconG {
+                    background: linear-gradient(#41AE8F, #41AE8F);
+                }
+            }
+            .moves {
+                height: 30px;
+                font-size: 0.54rem;
+                color: #898989;
+                display: flex;
+                align-items: center;
+            }
+            
+        }
+        .content {
+            .desc {
+                margin: 10px 16px 9px;
+                font-size: 14px;
+                color: #333;
+                text-overflow: -o-ellipsis-lastline;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+            .itemBox {
+                padding:  0.62rem 0.54rem;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                border-bottom: solid #F6F8FA 1px;
+                img {
+                    width: 4.2rem;
+                    height: auto;
+                    margin-right: 0.42rem;
+                }
+                .titles {
+                    color: #333;
+                    font-size: 0.6rem;
+                    text-overflow:ellipsis;
+                    word-wrap:break-word;
+                    -webkit-line-clamp: 2;
+                    line-height: 0.7rem;
+                    overflow: hidden;
+                    margin-bottom: 0.42rem;
+                }
+                .time {
+                    text-overflow:ellipsis;
+                    word-wrap: normal;
+                    overflow: hidden;
+                    color: #898989;
+                    font-size: 0.42rem;
+                }
+            }
+        }
+    }
+  }

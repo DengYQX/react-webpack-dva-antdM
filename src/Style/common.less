@@ -1,0 +1,213 @@
+
+
+@font-face {
+    font-family:"Source Han Sans CN";
+    src: url('../font/SourceHanSansCN-Regular.otf');
+}
+
+@font-face {
+    font-family:"Source Han Sans B";
+    src: url('../font/SourceHanSansCN-Medium.otf');
+}
+
+.fontBold {
+    font-family: 'Source Han Sans B';
+}
+body,div,span,header,footer,nav,section,aside,article,ul, li, a, p, h1, h2, h3, h4,h5, i, b, textarea, button, input, select  {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    font-family: 'Source Han Sans CN';
+    -webkit-tap-highlight-color:transparent;
+    &:focus {
+        outline: none;
+    }
+}
+// .am-input-control , .am-input-control{
+//     font-size: .64rem;
+//     input {
+//         text-align:right;
+//     }
+// }
+.flexCenter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+html {
+    height: 100%;
+}
+
+body{
+    background-color: #ebebeb;
+    height: 100%;
+}
+#root {
+    height: 100%; 
+}
+
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.clear{
+    zoom:1;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.ellips{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.component_container{
+    margin-bottom: .5rem;
+}
+
+
+.topNavigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    right: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.onTrangle {
+    width: 0px;
+    height: 0px;
+    border: 0.2rem solid #898989;
+    border-top-color: #898989;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+}
+.offTrangle {
+    width: 0px;
+    height: 0px;
+    border: 0.2rem solid #CCCCCC;
+    border-top-color: #CCCCCC;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+}
+.onDownTrangle {
+    width: 0px;
+    height: 0px;
+    border: 0.2rem solid #898989;
+    border-bottom-color: #898989;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+}
+.offDownTrangle {
+    width: 0px;
+    height: 0px;
+    border: 0.2rem solid #CCCCCC;
+    border-bottom-color: #CCCCCC;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+}
+.doubleTrangle {
+    height: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 0.3rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0.46rem;
+}
+.bottomMax {
+    width: 80%;
+    text-align: center;
+    height: 2rem;
+    font-size: 0.72rem;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient( #00A1E9, #006EBC);
+    line-height: 2rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    display: block;
+}
+
+#alertTip{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100000;
+    display: none;
+}
+#alertText{
+    width: 14.0rem;
+    position: absolute;
+    left: 50%;
+    top: 9.6rem;
+    margin-left: -7rem;
+    padding: 1.25rem 0.25rem;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: #000;
+    opacity: 0.8;
+    color: #fff;
+    border-radius: 0.25rem;
+    .alert_bottom{
+        font-size: 0.65rem;
+        line-height: 1.4rem;
+        color: #b3b3b3;
+    }
+}
+
+.maxImagesContent {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.48);
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+}

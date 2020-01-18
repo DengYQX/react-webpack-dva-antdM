@@ -1,0 +1,59 @@
+.serviceTep {
+  height: 100%;
+  .block {
+    color: #333;
+    height: calc(~"100vh - 1.92rem");
+    .am-list-body {
+      background-color: transparent;
+      border-top: none;
+      border-bottom: none;
+    }
+    .itemBlock {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      background-color: white;
+      margin-top: 10px;
+      padding: 7px 15px;
+      box-sizing: border-box;
+      .listImg {
+        display: flex;
+        align-items: center;
+        img {
+          width: 80px;
+          height: 80px;
+        }
+      }
+      .infos {
+        margin-left: 0.3rem;
+        font-size: 0.48rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 80px;
+
+        .name {
+          font-size: 0.56rem;
+          font-weight: bold;
+        }
+        .amount {
+          color: #00a1e9;
+        }
+        .address {
+          color: #898989;
+        }
+      }
+      .options {
+        img {
+          width: 34px;
+          height: 34px;
+          margin-right: 10px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}

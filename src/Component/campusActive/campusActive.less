@@ -1,0 +1,79 @@
+.campusActive {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #f6f8fa;
+  overflow: hidden;
+  // background-color: #F6F8FA;
+  .am-navbar-light {
+    border-bottom: 0.043rem solid #f0f0f0;
+  }
+  .am-whitespace-md {
+    height: 0 !important;
+  }
+  .am-tabs {
+    height: calc(~"100vh - 1.92rem");
+  }
+  .am-list-body {
+    background-color: transparent;
+    border: none;
+  }
+  .campusActive_list {
+    width: 100%;
+    padding: 12px 15px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .campusActive_list_p {
+      width: 245px;
+      height: 66px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .campusActive_list_title {
+        font-size: 15px;
+        color: #333;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .campusActive_list_title_title {
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          width: 80%;
+        }
+        .campusActive_list_title_price {
+          font-size: 14px;
+          color: #ff8400;
+        }
+      }
+      .campusActive_list_time {
+        font-size: 13px;
+        color: #999;
+      }
+      .campusActive_list_state {
+        color: #333;
+        font-size: 11px;
+      }
+      .campusActive_color {
+        color: #c7c7c7;
+      }
+    }
+    .campusActive_list_img {
+      width: 90px;
+      height: 80px;
+      float: left;
+      box-sizing: border-box;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

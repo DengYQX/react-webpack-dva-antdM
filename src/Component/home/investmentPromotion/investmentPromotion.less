@@ -1,0 +1,64 @@
+.investment_promotion {
+  height: 100%;
+  overflow: hidden;
+
+  .investment_promotion_arrowDown {
+    border-top: 7px solid #898989;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    margin-left: 7.5px;
+  }
+
+  .select_list {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.877333rem;
+    background: #fff;
+    border-top: 0.043rem solid #e5e5e5;
+    font-size: 0.64rem;
+    color: #898989;
+  }
+
+  .content_box {
+    .am-list-view-scrollview {
+      height: calc(~"100vh - 3.797333rem");
+      overflow: auto;
+      .am-list-body {
+        background-color: transparent;
+        border-top: none;
+        border-bottom: none;
+        .list-view-section-body {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          align-content: flex-start;
+          padding: 0.213rem 0.64rem 0.64rem;
+        }
+      }
+    }
+
+    .img_box {
+      width: 167px;
+      height: 125px;
+      position: relative;
+      margin-top: 0.427rem;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .look {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 1.451rem;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        line-height: 1.451rem;
+        text-align: center;
+        font-size: 0.64rem;
+      }
+    }
+  }
+}

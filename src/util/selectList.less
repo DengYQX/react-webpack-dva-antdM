@@ -1,0 +1,72 @@
+.popupModel {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0);
+}
+.popupContent {
+  position: absolute;
+  z-index: 1000;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.48);
+  .contnetBlock {
+    width: 100%;
+    height: 10.3rem;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    .contnetBlockMain {
+      width: 375px;
+      height: 10.3rem;
+      overflow-y: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: wrap;
+      -webkit-overflow-scrolling: touch;
+    }
+    .item {
+      width: 183px;
+      font-size: 12px;
+      padding: 0 15px;
+      box-sizing: border-box;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 44px;
+      margin-bottom: 5px;
+    }
+  }
+  .actionBts {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    .item {
+      font-size: 15px;
+      margin-bottom: 0;
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    }
+  }
+  .default {
+    color: #898989;
+    background-color: #f7f7f7;
+  }
+  .actions {
+    color: #333;
+    background-color: #fff;
+  }
+  .reset {
+    color: #333;
+  }
+  .confirm {
+    color: #00a1e9;
+  }
+}

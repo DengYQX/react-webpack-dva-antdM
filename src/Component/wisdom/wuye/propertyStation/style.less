@@ -1,0 +1,66 @@
+.propertyStation {
+  .am-list {
+    margin-top: 10px;
+    &:last-child {
+      margin-bottom: 10px;
+    }
+    .am-list-line {
+      border-bottom: none !important;
+    }
+  }
+  .am-stepper {
+    height: 20px;
+    line-height: 20px;
+    .am-stepper-handler-wrap {
+      .am-stepper-handler {
+        width: 20px;
+        height: 20px;
+        line-height: 10px;
+        border-radius: 50%;
+        box-sizing: border-box;
+        border-color: #00a1e9;
+        .am-icon {
+          width: 10px;
+          height: 10px;
+        }
+        .am-icon-minus {
+          color: #00a1e9;
+        }
+        .am-icon-plus {
+          color: #fff;
+        }
+      }
+      .am-stepper-handler-up {
+        background: linear-gradient(
+          0deg,
+          rgba(0, 110, 188, 1),
+          rgba(0, 161, 233, 1)
+        );
+      }
+      .am-stepper-handler-active {
+        background-color: transparent;
+      }
+    }
+    .am-stepper-input-wrap {
+      height: 20px;
+      line-height: 20px;
+    }
+  }
+  .leftblock {
+    display: flex;
+    align-items: center;
+    img {
+      width: 60px;
+      height: 60px;
+      margin-left: 10px;
+    }
+  }
+  .name {
+    font-size: 15px;
+    color: #333;
+  }
+  .amount {
+    font-size: 15px;
+    color: #ff8400;
+  }
+}

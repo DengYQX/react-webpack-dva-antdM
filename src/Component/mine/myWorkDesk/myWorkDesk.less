@@ -1,0 +1,416 @@
+.myWorkDesk {
+    width: 100%;
+    height: 100%;
+    background-color: #F6F8FA;
+
+    .myWorkDesk_div {
+        padding: 0.217rem 0.652rem;
+        width: 100%;
+        box-sizing: border-box;
+
+        .myWorkDesk_list {
+            background-color: #fff;
+            height: 3.913rem;
+            width: 49%;
+            float: left;
+            padding: 0.434rem;
+            box-sizing: border-box;
+            color: #464646;
+            font-size: 0.608rem;
+            position: relative;
+            margin-top: 0.434rem;
+
+            .myWorkDesk_img {
+                width: 0.868rem;
+                height: 0.868rem;
+            }
+
+            .myWorkDesk_text {
+                position: absolute;
+                bottom: 0.434rem;
+            }
+        }
+
+        .myWorkDesk_list:nth-child(even) {
+            margin-left: 2%;
+        }
+    }
+}
+
+
+//访客登记
+.comingPeople {
+    width: 100%;
+    height: 100%;
+    background-color: #F6F8FA;
+
+    .comingPeople_body {
+        border-top: 0.043rem solid #ECEDED;
+    }
+
+    .am-list-line {
+        border-bottom: 0.043rem solid #ECEDED;
+    }
+
+    .am-list-item .am-input-control input,
+    .am-textarea-control textarea,
+    .am-list-item .am-list-line .am-list-content {
+        font-size: .597rem;
+    }
+
+    .am-textarea-control {
+        padding: 0;
+    }
+
+    .am-list-item .am-input-label {
+        width: 5.217rem;
+        font-size: .597rem;
+    }
+
+    .am-list-header {
+        background: #fff;
+        color: #333;
+        font-size: .597rem;
+    }
+
+    .am-list-item .am-list-line .am-list-extra {
+        flex-basis: 60%;
+        font-size: .597rem;
+    }
+
+    .comingPeople_foot {
+        width: 100%;
+        height: 4.267rem;
+        padding-top: 2.3rem;
+        display: flex;
+        justify-content: space-around;
+
+        .comingPeople_btn {
+            width: 55%;
+            border-radius: 1.024rem;
+            box-sizing: border-box;
+            height: 2.005rem;
+            font-size: 0.768rem;
+            text-align: center;
+            color: #fff;
+            background: linear-gradient(0deg, rgba(0, 110, 188, 1), rgba(0, 161, 233, 1));
+            line-height: 2.005rem;
+        }
+
+    }
+
+}
+
+//物品放行-tab页
+.passingThing {
+    width: 100%;
+    height: 100%;
+
+    .inputElement {
+        padding: 0 .64rem;
+        box-sizing: border-box;
+        width: 100%;
+        height: 1.4rem;
+        background: #fff;
+
+        input {
+            height: 100%;
+            width: 80%;
+            border-radius: .341rem;
+            padding-left: 1.28rem;
+            box-sizing: border-box;
+        }
+
+        .Icons {
+            position: relative;
+            left: 1.28rem;
+            top: 0;
+            z-index: 100;
+        }
+    }
+
+    .passingThing_list {
+        width: 100%;
+        height: 100px;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        background: #fff;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        &:first-child{
+            margin-top: 10px;
+        }
+
+        .passingThing_list_img {
+            width: 80px;
+            height: 80px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .passingThing_list_text {
+            width: 255px;
+            overflow: hidden;
+            height: 100%;
+            box-sizing: border-box;
+
+            .passingThing_list_company {
+                font-size: 0.652rem;
+                font-weight: 600;
+                margin-bottom: 0.434rem;
+                margin-top: 0.3rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .passingThing_list_number {
+                font-size: 0.608rem;
+                margin-bottom: 0.434rem;
+            }
+
+            .passingThing_list_time {
+                font-size: 0.565rem;
+                color: #999;
+            }
+
+            .passingThing_list_span {
+                color: #fff;
+                padding: 0.347rem 0.434rem;
+                border-radius: 0.652rem;
+                background: linear-gradient(0deg, rgba(0, 110, 188, 1), rgba(0, 161, 233, 1));
+                float: right;
+            }
+        }
+
+    }
+
+
+}
+
+
+//物品放行--详情
+.passingInfor {
+    width: 100%;
+    height: 100%;
+
+    .passingInfor_img {
+        width: 100%;
+        height: 6.521rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .passingInfor_title {
+        width: 100%;
+        height: 2.608rem;
+        padding: 0 0.652rem;
+        box-sizing: border-box;
+        line-height: 2.173rem;
+        border-bottom: 0.434rem solid #F6F8FA;
+        font-size: 0.608rem;
+        background: #fff;
+
+        span {
+            float: right;
+        }
+
+        .passingInfor_span_blue {
+            color: #12A7EA;
+        }
+
+        .passingInfor_span_grey {
+            color: #999;
+        }
+    }
+
+    .passingInfor_padding {
+        padding: 0 0.652rem;
+        box-sizing: border-box;
+        font-size: 0.608rem;
+        background: #fff;
+
+        .passingInfor_list {
+            width: 100%;
+            height: 1.931rem;
+            box-sizing: border-box;
+            border-bottom: 0.043rem solid #EEEEEE;
+            background: #fff;
+            line-height: 1.931rem;
+
+            span {
+                color: #898989;
+            }
+
+        }
+
+        .passingInfor_div {
+            background: #fff;
+            padding: 0.434rem 0;
+            box-sizing: border-box;
+            line-height: 1rem;
+            color: #898989;
+            border-bottom: 0.043rem solid #EEEEEE;
+
+        }
+    }
+
+    .passingInfor_foot {
+        padding: 0 .64rem;
+        background: #F6F8FA;
+        margin-top: 2.56rem;
+        box-sizing: border-box;
+
+        .passingInfor_btn {
+            width: 49%;
+            height: 2.005rem;
+            line-height: 2.005rem;
+            font-size: .768rem;
+            color: #fff;
+            text-align: center;
+            float: left;
+            border-radius: 1.024rem;
+            margin-bottom: 2.133rem;
+        }
+
+        .passingInfor_btn_blue {
+            background: linear-gradient(0deg, rgba(0, 110, 188, 1), rgba(0, 161, 233, 1));
+            margin-right: 2%;
+        }
+
+        .passingInfor_btn_grey {
+            background: #B5B6B6;
+        }
+
+    }
+}
+
+
+//物品放行--同意
+.getPassing {
+    width: 100%;
+    height: 100%;
+
+    .getPassing_body {
+        width: 100%;
+        border-top: .427rem solid #F6F8FA;
+    }
+
+    .am-list-item .am-list-line .am-list-extra {
+        flex-basis: 60%;
+    }
+
+    .getPassing_list {
+        width: 100%;
+        height: 1.931rem;
+        box-sizing: border-box;
+        border-bottom: 0.043rem solid #EEEEEE;
+        background: #fff;
+        line-height: 1.931rem;
+        padding-left: .64rem;
+        font-size: .683rem;
+        border-top: 0.043rem solid #EEEEEE;
+    }
+
+    .am-textarea-control textarea {
+        font-size: .65rem;
+    }
+
+    .getPassing_img {
+        width: 100%;
+        box-sizing: border-box;
+        padding: .427rem .64rem;
+
+        .getPassing_title {
+            font-size: .683rem;
+        }
+    }
+
+    .getPassing_foot {
+        margin-top: 2.56rem;
+        padding: 0 1.493rem;
+        box-sizing: border-box;
+
+        .getPassing_btn {
+            background: linear-gradient(0deg, rgba(0, 110, 188, 1), rgba(0, 161, 233, 1));
+            height: 2.005rem;
+            line-height: 2.005rem;
+            font-size: .768rem;
+            color: #fff;
+            text-align: center;
+            float: left;
+            border-radius: 1.024rem;
+            margin-bottom: 2.133rem;
+            width: 100%;
+        }
+    }
+}
+
+
+
+//拒绝放行
+.getPassing_bad {
+    width: 100%;
+    height: 100%;
+    background: #F6F8FA;
+
+    .getPassing_list_no {
+        width: 100%;
+        height: 1.931rem;
+        box-sizing: border-box;
+        line-height: 1.931rem;
+        padding-left: .64rem;
+        font-size: .683rem;
+
+        .getPassing_list_red {
+            color: red;
+        }
+    }
+
+    .getPassing_list_padding {
+        padding: 0 .64rem;
+    }
+
+    .am-textarea-control textarea {
+        font-size: .65rem;
+    }
+
+    .getPassing_img {
+        width: 100%;
+        box-sizing: border-box;
+        padding: .427rem .64rem;
+
+        .getPassing_title {
+            font-size: .683rem;
+        }
+    }
+
+    .getPassing_foot {
+        margin-top: 2.56rem;
+        padding: 0 1.493rem;
+        box-sizing: border-box;
+
+        .getPassing_btn {
+            background: linear-gradient(0deg, rgba(0, 110, 188, 1), rgba(0, 161, 233, 1));
+            height: 2.005rem;
+            line-height: 2.005rem;
+            font-size: .768rem;
+            color: #fff;
+            text-align: center;
+            float: left;
+            border-radius: 1.024rem;
+            margin-bottom: 2.133rem;
+            width: 100%;
+        }
+    }
+
+}
